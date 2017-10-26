@@ -2,4 +2,4 @@
 /npm-debug.log
 /.idea
 /obj/test
-/config/test_connections.yaml
+/config/test_connections.yml

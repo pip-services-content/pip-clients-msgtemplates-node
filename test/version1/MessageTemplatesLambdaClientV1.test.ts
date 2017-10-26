@@ -3,7 +3,7 @@ import { MessageTemplatesClientFixtureV1 } from './MessageTemplatesClientFixture
 import { MessageTemplatesLambdaClientV1 } from '../../src/version1/MessageTemplatesLambdaClientV1';
 
 suite('MessageTemplatesLambdaClient', ()=> {
-    let config = YamlConfigReader.readConfig(null, './config/test_connections.yaml', null);
+    let config = YamlConfigReader.readConfig(null, './config/test_connections.yml', null);
     let lambdaConfig = config.getSection('lambda');
 
     // Skip if connection is not configured
