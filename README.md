@@ -7,6 +7,7 @@ It provides an easy to use abstraction over communication protocols:
 * HTTP client
 * Seneca client (see http://www.senecajs.org)
 * AWS Lambda client (see https://aws.amazon.com/lambda)
+* Null client to be used in testing
 * Message template resolver
 
 <a name="links"></a> Quick Links:

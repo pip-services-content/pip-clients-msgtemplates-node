@@ -6,6 +6,7 @@
 * **rest** HTTP/REST client
 * **seneca** Seneca client
 * **lambda** AWS lambda client
+* **null** Null clienf for testing
 * **unit tests** Unit tests using Mocha and Matcha
 * MessageTemplateResolverV1 to simplify handling message templates
 
