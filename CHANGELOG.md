@@ -7,6 +7,7 @@
 * **seneca** Seneca client
 * **lambda** AWS lambda client
 * **unit tests** Unit tests using Mocha and Matcha
+* MessageTemplateResolverV1 to simplify handling message templates
 
 ### Breaking Changes
 No breaking changes since this is the first version

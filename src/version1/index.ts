@@ -5,3 +5,4 @@ export { MessageTemplatesDirectClientV1 } from './MessageTemplatesDirectClientV1
 export { MessageTemplatesHttpClientV1 } from './MessageTemplatesHttpClientV1';
 export { MessageTemplatesSenecaClientV1 } from './MessageTemplatesSenecaClientV1';
 export { MessageTemplatesLambdaClientV1 } from './MessageTemplatesLambdaClientV1';
+export { MessageTemplatesResolverV1 } from './MessageTemplatesResolverV1';

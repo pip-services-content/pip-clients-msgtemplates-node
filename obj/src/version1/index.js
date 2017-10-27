@@ -12,4 +12,6 @@ var MessageTemplatesSenecaClientV1_1 = require("./MessageTemplatesSenecaClientV1
 exports.MessageTemplatesSenecaClientV1 = MessageTemplatesSenecaClientV1_1.MessageTemplatesSenecaClientV1;
 var MessageTemplatesLambdaClientV1_1 = require("./MessageTemplatesLambdaClientV1");
 exports.MessageTemplatesLambdaClientV1 = MessageTemplatesLambdaClientV1_1.MessageTemplatesLambdaClientV1;
+var MessageTemplatesResolverV1_1 = require("./MessageTemplatesResolverV1");
+exports.MessageTemplatesResolverV1 = MessageTemplatesResolverV1_1.MessageTemplatesResolverV1;
 //# sourceMappingURL=index.js.map
