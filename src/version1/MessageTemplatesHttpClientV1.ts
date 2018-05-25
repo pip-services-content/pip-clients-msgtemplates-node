@@ -11,7 +11,7 @@ import { IMessageTemplatesClientV1 } from './IMessageTemplatesClientV1';
 export class MessageTemplatesHttpClientV1 extends CommandableHttpClient implements IMessageTemplatesClientV1 {       
     
     constructor(config?: any) {
-        super('message_templates');
+        super('v1/message_templates');
 
         if (config != null)
             this.configure(ConfigParams.fromValue(config));
