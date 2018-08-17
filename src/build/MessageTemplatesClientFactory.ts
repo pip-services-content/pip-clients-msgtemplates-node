@@ -1,5 +1,5 @@
 import { Descriptor } from 'pip-services-commons-node';
-import { Factory } from 'pip-services-commons-node';
+import { Factory } from 'pip-services-components-node';
 
 import { MessageTemplatesNullClientV1 } from '../version1/MessageTemplatesNullClientV1';
 import { MessageTemplatesDirectClientV1 } from '../version1/MessageTemplatesDirectClientV1';

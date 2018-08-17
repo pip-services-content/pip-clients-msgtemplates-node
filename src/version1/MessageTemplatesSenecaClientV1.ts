@@ -5,7 +5,7 @@ import { IReferences } from 'pip-services-commons-node';
 import { FilterParams } from 'pip-services-commons-node';
 import { PagingParams } from 'pip-services-commons-node';
 import { DataPage } from 'pip-services-commons-node';
-import { CommandableSenecaClient } from 'pip-services-net-node';
+import { CommandableSenecaClient } from 'pip-services-seneca-node';
 
 import { MessageTemplateV1 } from './MessageTemplateV1';
 import { IMessageTemplatesClientV1 } from './IMessageTemplatesClientV1';

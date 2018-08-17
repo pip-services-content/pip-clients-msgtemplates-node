@@ -3,7 +3,7 @@ import { Descriptor } from 'pip-services-commons-node';
 import { FilterParams } from 'pip-services-commons-node';
 import { PagingParams} from 'pip-services-commons-node';
 import { DataPage } from 'pip-services-commons-node';
-import { DirectClient } from 'pip-services-net-node';
+import { DirectClient } from 'pip-services-rpc-node';
 
 import { IMessageTemplatesClientV1 } from './IMessageTemplatesClientV1';
 //import { IMessageTemplatesController } from 'pip-services-msgtemplates-node';
