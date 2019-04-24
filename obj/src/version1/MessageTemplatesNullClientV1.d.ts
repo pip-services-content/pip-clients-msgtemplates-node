@@ -1,6 +1,6 @@
-import { FilterParams } from 'pip-services-commons-node';
-import { PagingParams } from 'pip-services-commons-node';
-import { DataPage } from 'pip-services-commons-node';
+import { FilterParams } from 'pip-services3-commons-node';
+import { PagingParams } from 'pip-services3-commons-node';
+import { DataPage } from 'pip-services3-commons-node';
 import { IMessageTemplatesClientV1 } from './IMessageTemplatesClientV1';
 import { MessageTemplateV1 } from './MessageTemplateV1';
 export declare class MessageTemplatesNullClientV1 implements IMessageTemplatesClientV1 {

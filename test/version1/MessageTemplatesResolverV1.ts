@@ -1,8 +1,8 @@
 let assert = require('chai').assert;
 let async = require('async');
 
-import { Descriptor } from 'pip-services-commons-node';
-import { ConfigParams } from 'pip-services-commons-node';
+import { Descriptor } from 'pip-services3-commons-node';
+import { ConfigParams } from 'pip-services3-commons-node';
 
 import { MessageTemplateV1 } from '../../src/version1/MessageTemplateV1';
 import { MessageTemplatesResolverV1 } from '../../src/version1/MessageTemplatesResolverV1';

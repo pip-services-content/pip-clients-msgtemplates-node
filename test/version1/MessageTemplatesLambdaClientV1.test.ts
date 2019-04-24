@@ -1,6 +1,6 @@
 let process = require('process');
 
-import { ConfigParams } from 'pip-services-commons-node';
+import { ConfigParams } from 'pip-services3-commons-node';
 
 import { MessageTemplatesClientFixtureV1 } from './MessageTemplatesClientFixtureV1';
 import { MessageTemplatesLambdaClientV1 } from '../../src/version1/MessageTemplatesLambdaClientV1';

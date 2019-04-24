@@ -1,11 +1,11 @@
 let _ = require('lodash');
 
-import { ConfigParams } from 'pip-services-commons-node';
-import { IReconfigurable } from 'pip-services-commons-node';
-import { IReferenceable } from 'pip-services-commons-node';
-import { IReferences } from 'pip-services-commons-node';
-import { Descriptor } from 'pip-services-commons-node';
-import { StringConverter } from 'pip-services-commons-node';
+import { ConfigParams } from 'pip-services3-commons-node';
+import { IReconfigurable } from 'pip-services3-commons-node';
+import { IReferenceable } from 'pip-services3-commons-node';
+import { IReferences } from 'pip-services3-commons-node';
+import { Descriptor } from 'pip-services3-commons-node';
+import { StringConverter } from 'pip-services3-commons-node';
 
 import { IMessageTemplatesClientV1 } from './IMessageTemplatesClientV1';
 import { MessageTemplateV1 } from './MessageTemplateV1';

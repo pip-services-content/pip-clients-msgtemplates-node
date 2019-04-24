@@ -1,12 +1,12 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 let _ = require('lodash');
-const pip_services_commons_node_1 = require("pip-services-commons-node");
-const pip_services_commons_node_2 = require("pip-services-commons-node");
-const pip_services_commons_node_3 = require("pip-services-commons-node");
+const pip_services3_commons_node_1 = require("pip-services3-commons-node");
+const pip_services3_commons_node_2 = require("pip-services3-commons-node");
+const pip_services3_commons_node_3 = require("pip-services3-commons-node");
 class MessageTemplatesResolverV1 {
     constructor(config, references) {
-        this._config = new pip_services_commons_node_1.ConfigParams();
+        this._config = new pip_services3_commons_node_1.ConfigParams();
         this._templates = {};
         if (config != null)
             this.configure(config);
@@ -17,7 +17,7 @@ class MessageTemplatesResolverV1 {
         this._config = config.getSection("message_templates");
     }
     setReferences(references) {
-        this._client = references.getOneOptional(new pip_services_commons_node_2.Descriptor('pip-services-msgtemplates', 'client', '*', '*', '1.0'));
+        this._client = references.getOneOptional(new pip_services3_commons_node_2.Descriptor('pip-services-msgtemplates', 'client', '*', '*', '1.0'));
     }
     put(name, template) {
         this._config[name] = template;
@@ -75,7 +75,7 @@ class MessageTemplatesResolverV1 {
         for (let index = 0; index < tuples.length; index += 2) {
             if (index + 1 >= tuples.length)
                 break;
-            let name = pip_services_commons_node_3.StringConverter.toString(tuples[index]);
+            let name = pip_services3_commons_node_3.StringConverter.toString(tuples[index]);
             let template = tuples[index + 1];
             result.put(name, template);
         }
