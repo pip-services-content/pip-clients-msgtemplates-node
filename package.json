@@ -37,10 +37,11 @@
         "rebenchmark": "tsc && matcha -R clean -I tdd ./obj/benchmark/run.js"
     },
     "dependencies": {
+        "pip-services3-aws-node": "^3.0.0",
         "pip-services3-commons-node": "^3.0.0",
         "pip-services3-components-node": "^3.0.0",
         "pip-services3-rpc-node": "^3.0.0",
-        "pip-services3-aws-node": "^3.0.0"
+        "typescript": "^2.5.2"
     },
     "devDependencies": {
         "@types/node": "*",
