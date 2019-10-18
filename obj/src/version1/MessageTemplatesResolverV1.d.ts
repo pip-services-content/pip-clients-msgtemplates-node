@@ -11,8 +11,8 @@ export declare class MessageTemplatesResolverV1 implements IReferenceable, IReco
     configure(config: ConfigParams): void;
     setReferences(references: IReferences): void;
     put(name: string, template: any): void;
-    private retrieveTemplate(name, templateName, callback);
-    private createTemplate(name, config, callback);
+    private retrieveTemplate;
+    private createTemplate;
     resolve(name: string, callback: (er: any, template: MessageTemplateV1) => void): void;
     static fromTuples(...tuples: any[]): MessageTemplatesResolverV1;
 }

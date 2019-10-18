@@ -59,6 +59,6 @@
         "chai": "*",
         "mocha": "*",
         "aws-sdk": "*",
-        "pip-services-msgtemplates-node": "git+ssh://git@github.com:pip-services-content/pip-services-msgtemplates-node.git"
+        "pip-services-msgtemplates-node": "^1.0.1"
     }
 }
